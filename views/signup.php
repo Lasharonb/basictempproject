@@ -6,7 +6,7 @@ require_once(__ROOT__.'/controllers/db_connect.php');
 
 <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address (Username)</label>
+    <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
@@ -21,10 +21,19 @@ require_once(__ROOT__.'/controllers/db_connect.php');
   <div class="form-group">
     <label for="citySelect">City</label>
     <select class="form-control" id="citySelect">
+        <option value="1">Miami</option>
+        <option value="2">Houston</option>
+        <option value="3">Chicago</option>
+        <option value="4">San Antonio</option>
+        <option value="5">Detroit</option>
+        <option value="6">Boston</option>
+        <option value="7">Washington</option>
+        <option value="8">Tampa</option>
+        <option value="9">Orlando</option>
+        <option value="10">Tuscon</option>
 <?php
     //GET THE LIST OF CITIES;
-    $query = "SELECT * FROM City;";
-
+    $query = "SELECT * FROM City;"; 
     $result = $conn->query($query);
     
     if ($result->num_rows > 0) {
@@ -43,6 +52,10 @@ require_once(__ROOT__.'/controllers/db_connect.php');
   <div class="form-group">
     <label for="roleSelect">Role</label>
     <select class="form-control" id="roleSelect">
+        <option value="1">Subscriber</option>
+        <option value="2">Moderator</option>
+        <option value="3">Influencer</option>
+        <option value="4">Editor</option>
      <?php
     //GET THE LIST OF CITIES;
     $query = "SELECT * FROM Role;";
@@ -62,7 +75,7 @@ require_once(__ROOT__.'/controllers/db_connect.php');
     </select>
   </div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="Submit" class="btn btn-success">Submit</button>
 </form>
 
 <?php
