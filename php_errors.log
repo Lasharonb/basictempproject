@@ -1,0 +1,30 @@
+[17-Nov-2017 01:32:00 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[17-Nov-2017 01:32:00 UTC] PHP Stack trace:
+[17-Nov-2017 01:32:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[17-Nov-2017 01:32:00 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[17-Nov-2017 01:39:32 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[17-Nov-2017 01:39:32 UTC] PHP Stack trace:
+[17-Nov-2017 01:39:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[17-Nov-2017 01:39:32 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[01-Dec-2017 03:46:17 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:46:17 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:51:26 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:51:26 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:56:19 UTC] PHP Warning:  require_once(db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:56:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:56:50 UTC] PHP Warning:  require_once(db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:56:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:56:58 UTC] PHP Warning:  require_once(db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:56:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:57:28 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:57:28 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:57:28 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:57:28 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:57:29 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:57:29 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:58:08 UTC] PHP Warning:  require_once(db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 03:58:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 04:00:06 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 04:00:06 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 04:06:19 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[01-Dec-2017 04:06:19 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2

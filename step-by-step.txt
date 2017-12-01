@@ -1,0 +1,30 @@
+TO-DO: 
+(Done) - Require
+(Done) - Folder structure
+(Done) - Templating
+- User session (Login & Logout)
+    - Modal from bootstrap
+    - Altered the modal so that it has a form
+    - (new)js file 
+        - click event for the login button (the one inside the modal).
+        - Validated the information inside the form's inputs.
+        - Configure and Execute ajax call.
+        - Set the initial state of the website
+            - Hid the logoutButton
+            - Hid the error messages
+    - (new)php file: Login
+        - Validated method POST (if GET, user is redirected to home page)
+        - Validated the information inside the POST variable (email & password)
+        - Validated email & password against "database"
+        - Created the session (if user valid)
+        - Created the response message
+            -code:200, messsage: success, data:useremail
+            -code:800, message: failure, data:invalid
+        - Encoded the response message (JSON)
+    - js file
+        - Validated response from server
+            - Change state of website if Success (code:200)
+            - Show error message if Failure (code:800)
+
+- Object Oriented Programming: User (admin, normal)
+- Database
