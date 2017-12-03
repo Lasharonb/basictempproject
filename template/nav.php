@@ -38,7 +38,7 @@
         Logout
       </a>
       <?php
-        echo "<script type=\"text/javascript\">$(\"#logoutButton\").show();</script>"
+        echo '<script type="text/javascript">$("#logoutButton").show();</script>';
       ?>
       
     </form>

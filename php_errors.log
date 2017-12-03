@@ -29,3 +29,10 @@
 [01-Dec-2017 04:06:19 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
 [01-Dec-2017 04:06:19 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
 [01-Dec-2017 15:59:46 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lbillups@localhost'@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/db_connect.php on line 9
+[02-Dec-2017 17:07:40 UTC] PHP Fatal error:  Call to a member function multi_query() on a non-object in /home/ubuntu/workspace/controllers/User_signup.php on line 23
+[02-Dec-2017 17:08:17 UTC] PHP Fatal error:  Call to a member function multi_query() on a non-object in /home/ubuntu/workspace/controllers/User_signup.php on line 23
+[02-Dec-2017 17:08:33 UTC] PHP Fatal error:  Call to a member function multi_query() on a non-object in /home/ubuntu/workspace/controllers/User_signup.php on line 23
+[02-Dec-2017 17:10:26 UTC] PHP Fatal error:  Call to a member function multi_query() on a non-object in /home/ubuntu/workspace/controllers/User_signup.php on line 23
+[02-Dec-2017 17:11:02 UTC] PHP Fatal error:  Call to a member function multi_query() on a non-object in /home/ubuntu/workspace/controllers/User_signup.php on line 23
+[02-Dec-2017 17:11:09 UTC] PHP Fatal error:  Call to a member function multi_query() on a non-object in /home/ubuntu/workspace/controllers/User_signup.php on line 23
+[02-Dec-2017 17:12:34 UTC] PHP Fatal error:  Call to a member function multi_query() on a non-object in /home/ubuntu/workspace/controllers/User_signup.php on line 23
