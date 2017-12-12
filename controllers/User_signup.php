@@ -15,22 +15,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = test_input($_POST["comment"]);
     
     if( empty($email) || empty($password) || empty($firstname) || empty($lastname) || empty($city_id) || empty($role_id)){
-        echo "Missing information. please fix and try again";
+        echo "Missing information. please fix and try again"; 
         die();
     }
     if( strlen($password) < 7 ) {
-        echo "Invalid password, please fix and try again";
+        echo "Invalid password, please fix and try again"; 
         die();
     }
   
     $sql = "INSERT INTO User (username, password, first_name, last_name, role_id, city_id, comment) VALUES ('$email', '$password', '$firstname', '$lastname', $role_id, $city_id, '$comment')";
 
     if ($conn->multi_query($sql) === TRUE) {
-        echo "New records created successfully";
-        header('Location: /views/successful_signup.php');
+         $data = [
+                "code" => 200, 
+                "message" => "success",
+                "data" => $jsonArray
+                ];//change to code 200
+        //header('Location: /?page=/views/successful_signup');
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-        header('Location: /views/error_signup.php');
+        $data = [
+                "code" => 800, 
+                "message" => "error",
+                "data" => "No results"
+                ];//change to code 800
+        //header('Location: /?page=/views/error_signup');
     }
     
     $conn->close();
